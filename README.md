@@ -12,7 +12,7 @@ The basic framework  is a bi-directional LSTM framework.The question and answers
 The output vectors from LSTM are then passed for max-pooling.
 In the final step, Cosine similarity is used to find similarity between the question and answer vector.
 
-[[https://github.com/srinathkv1992/Deep-Learning-based-Question-Answer-Selection-for-Insurance-Domain/blob/master/LSTM.PNG|alt=octocat]]
+![BASIC Bi-LSTM FRAMEWORK](https://github.com/srinathkv1992/Deep-Learning-based-Question-Answer-Selection-for-Insurance-Domain/blob/master/LSTM.PNG)
 
 The advanced framework used is a Convolutional Neural Network on top of a Bi-directional LSTM.
 The output vectors from LSTM and CNN are then passed for max-pooling.
